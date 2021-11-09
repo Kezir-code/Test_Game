@@ -44,6 +44,10 @@ public class GameController : MonoBehaviour
         {
             SpawnNextTile(i >= initNoObstacles);
         }
+        for (int i = 0; i < initSpawnNum; ++i)
+        {
+            SpawnNextTile(i >= initNoObstacles);
+        }
     }
 
 
